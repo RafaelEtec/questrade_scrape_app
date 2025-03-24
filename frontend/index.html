@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Title of the page -->
+  <title>Mercado Livre Scraper</title>
+  
+  <!-- Linking the external CSS file for styling -->
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <!-- Fixed header section containing the navbar -->
+  <header class="navbar">
+    <!-- Page title displayed in the navbar -->
+    <h1>Mercado Livre Scraper</h1>
+    
+    <!-- Container for the search input and button -->
+    <div class="search-container">
+      <!-- Input field for the keyword to search -->
+      <input type="text" id="keyword" placeholder="Digite a palavra-chave..." />
+      
+      <!-- Button to trigger the scraping process -->
+      <button id="scrapeBtn">Buscar</button>
+    </div>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Section where the scraped results will be dynamically displayed -->
+    <section id="results" class="results-container"></section>
+  </main>
+  
+  <!-- Linking the JavaScript file to add interactivity -->
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
